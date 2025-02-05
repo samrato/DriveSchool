@@ -13,3 +13,55 @@ section{
 }
 
 /* ==============HRO SECTION CS========================== */
+.hero{
+    min-height: 100vh;
+    background: linear-gradient(var(--color-gray-0),var(--color-gray-100));
+}
+body.dark.hero{
+    background: linear-gradient(var(--color-gray-200),var(--color-gray-0));
+}
+
+.hero_container{
+    text-align: center ;
+}
+.hero_content{
+    width: 50%;
+    margin-inline: auto;
+}
+.hero_content p{
+    margin-top: 0.5rem;
+}
+.hero_cta{
+    margin-top: 3rem; 
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.hero_images{
+    width: fit-content;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 4rem;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.hero_image{
+    width: 14rem;
+    height: 25rem;
+    border-radius: 7rem;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 0 var(--color-gray-200);
+    transition: var(--transition);
+}
+.hero_image:hover{
+    box-shadow: none;
+}
+.hero_image:nth-child(1),
+.hero_image:nth-child(5){
+    transform: translateY(-8rem);
+}
+.hero_image:nth-child(3){
+    transform: translateY(8rem);
+}
