@@ -67,4 +67,33 @@ body.dark.hero{
 }
 
 
-/* ==============HRO SECTION CS========================== */    
+/* ==============About  SECTION CS========================== */    
+.about{
+    background: var(--color-gray-50);
+}
+.about_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10rem;
+}
+.about_left{
+    border-radius: 7rem;
+    overflow: hidden;
+    box-shadow: 0 2rem 0 var(--color-gray-100);
+    transition: var(--transition);
+}
+.about_left:hover{
+    box-shadow: none;
+}
+.section_header{
+    text-align: left;
+}
+.about_container h1{
+    margin-bottom: 1rem;
+}
+.about_right p{
+    margin-bottom: 1rem;
+}
+.about_container a{
+    margin-top: 2rem;
+}
