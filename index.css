@@ -1,0 +1,15 @@
+
+section{
+    padding: 12rem 0;
+    overflow: hidden;
+}
+.section_header{
+    text-align: center;
+    
+}
+.section_header h4{
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+/* ==============HRO SECTION CS========================== */
