@@ -97,3 +97,39 @@ body.dark.hero{
 .about_container a{
     margin-top: 2rem;
 }
+
+/* ==============Programs SECTION CS========================== */
+.ourprograms{
+    background: var(--color-gray-0);
+} 
+.ourprograms_list{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem ,1fr));
+    gap: 4rem;
+}
+.ourprograms_item{
+    background: var(--color-gray-50);
+    height: 28rem;
+    border-radius: var(--radius-6);
+    overflow: hidden;
+    box-shadow: 0 1rem 0 var(--color-gray-100);
+    transition: var(--transition);
+}
+.ourprograms_item:hover{
+    box-shadow: none;
+}
+.ourprograms_item-image{
+    height: 20rem;
+    border-radius: 3rem;
+    box-shadow:0 1rem 0 var(--color-gray-0) ;
+    overflow: hidden;
+}
+.ourprograms_item-content{
+    padding: 2.5rem 2.5rem;
+}
+.ourprograms_item:hover a{
+    background: var(--color-gray-0);
+    padding: 0.3rem 1.5rem;
+    border-radius: var(--radius-1);
+}
