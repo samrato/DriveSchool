@@ -197,3 +197,54 @@ body.dark.hero{
 .whyUs_item h4{
     margin: 2rem 0 0.6rem;
 }
+
+/* ==============OUR PROCESS SECTION CS========================== */
+.ourProcess{
+    background: var(--color-gray-0);
+    text-align: center;
+}
+.ourProcess_list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    margin-top: 7rem;
+}
+.ourProcess_item{
+    background: var(--color-gray-700);
+    color: var(--color-gray-100);
+    padding: 3rem 2rem;
+    border-radius: var(--radius-6);
+    box-shadow: 0 1rem 0 var(--color-gray-100);
+    position: relative;
+    transition: var(--transition);
+    }
+.ourProcess_item:hover{
+    box-shadow: none;
+}
+.ourProcess_item:nth-child(1){
+    background: var(--color-succes);
+}
+.ourProcess_item:nth-child(2){
+    background: var(--color-danger);
+}
+.ourProcess_item h4{
+    color: var(--color-gray-0);
+    margin: 2rem 0 0.5rem ;
+}
+.ourProcess_item span{
+    font-size: 2.5rem;
+    color: var(--color-gray-0);
+    display: inline-block;
+}
+.ourProcess_item h2{
+    position: absolute;
+    top: -2rem;
+    left: 6rem;
+    background: var(--color-gray-0);
+    width: 4.5rem;
+    aspect-ratio: 1/1;
+    border-radius: var(--radius-4);
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0.5rem 0 var(--color-gray-100);
+}
