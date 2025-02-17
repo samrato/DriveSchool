@@ -248,3 +248,55 @@ body.dark.hero{
     place-items: center;
     box-shadow: 0 0.5rem 0 var(--color-gray-100);
 }
+
+/* ==============OUR PACKAGES SECTION CS========================== */
+.packages_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: max-content;
+    margin: 4rem auto 2rem;
+}
+.packages_buttons button{
+    background: var(--color-gray-0);
+    color: var(--color-gray-900);
+    border-radius: var(--radius-3);
+    padding: 1.5rem 3rem;
+    box-shadow: 0 0.7rem 0 var(--color-gray-100);
+}
+.packages_buttons button.active{
+    background: var(--color-primary);
+    color: var(--color-gray-0); 
+}
+.packages_buttons button:hover{
+    background: var(--color-gray-900);
+    color: var(--color-gray-0);
+    box-shadow:none ;
+}
+table{
+    width: 100%;
+}
+thead th{
+    padding: 1rem;
+    text-align: left;
+}
+tbody td{
+    padding: 1rem;
+}
+tbody tr{
+    animation: identifier 1s ease forwards;
+}
+tbody tr :nth-child(odd){
+    background: var(--color-gray-0);
+}
+/*ANIMATION FOR TOGGLE CHANGE */
+
+@keyframes identifier {
+    0%{
+        opacity: 0;
+    }    
+    100%{
+        opacity: 0;
+    }
+}

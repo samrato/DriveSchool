@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
     <title>Rocky Driving school</title>
+     <!-- ==========================SWIPER JS =================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- =================CUSTOMS CSS======================= -->
+
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./index.css">
 </head>
@@ -208,6 +212,107 @@
         </menu>
     </div>
   </section>
+ <!-- ====================Our PACKAGES ======================== -->
+  <section class="packages">
+    <div class="container packages_container">
+        <header class="section_header"> 
+            <h4>Package Price</h4>
+            <h1>Choose your Package </h1>
+        </header>
+        <menu class="packages_buttons">
+            <button class="active non-students">Non Students</button>
+            <button class="students">Students</button>
+            <button class="license">License</button>
+        </menu>
+        <table>
+            <thead>
+                <tr>
+                    <th>Packages</th>
+                    <th>Duration</th>
+                    <th>Price ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Regular with standard licence</td>
+                    <td>6 weeks</td>
+                    <td>2,650</td>
+                </tr>
+                <tr>
+                    <td>Regular with premium licence</td>
+                    <td>6 weeks</td>
+                    <td>2,900</td>
+                </tr>
+                <tr>
+                    <td>Express  without  licence</td>
+                    <td>3 weeks</td>
+                    <td>2,400</td>
+                </tr>
+                <tr>
+                    <td>Express  with standard licence</td>
+                    <td>3 weeks</td>
+                    <td>3,600</td>
+                </tr>
+                <tr>
+                    <td>Express  with premium licence</td>
+                    <td>3 weeks</td>
+                    <td>3,350</td>
+                </tr>
+                <tr>
+                    <td>Polishing without license</td>
+                    <td>2-4 weeks</td>
+                    <td>1,500</td>
+                </tr>
+                <tr>
+                    <td>Polishing with standard  license</td>
+                    <td>2-4 weeks</td>
+                    <td>2,100</td>
+                </tr>
+                <tr>
+                    <td>Polishing with premium  license</td>
+                    <td>2-4 weeks</td>
+                    <td>2,140</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </section>
+<!-- ==================== TESTIMONIAL SECTIONS ======================== -->
+ <section class="testimonials">
+    <div class="container swiper mySwiper">
+        <header class="section_header">
+            <h4>What Our students say </h4>
+            <h1>Testimonials </h1>
+        </header>
+        <menu class="swiper-wrapper">
+            <article class="swiper-slide">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dicta, praesentium voluptate distinctio voluptatem explicabo a ab nobis in laboriosam saepe impedit maxime eos sunt ad, expedita quaerat? Architecto, eius!</p>
+                <div class="testimonial_client">
+                    <div class="testimonial_client-image">
+                        <img src="./assets/candidate1.jpg" alt="">
+                    </div>
+                    <div class="testimonial_client-info">
+                        <h5>Kevin shahale </h5>
+                    </div>
+                </div>
+            </article>
+        </menu>
+        <div class="swiper-pagination"></div>
+    </div>
+ </section>
+
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper(".mySwiper", {
+     pagination: {
+       el: ".swiper-pagination",
+     },
+   });
+ </script>
 
 </body>
 </html>
