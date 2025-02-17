@@ -44,6 +44,9 @@
     text-decoration: none;
     user-select: none;
 }
+html{
+    font-size: 14px;
+}
 body{
     font-family: "Montserrat",sans-serif;
     color: var(--color-gray-600);
