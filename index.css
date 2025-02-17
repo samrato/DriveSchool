@@ -85,7 +85,7 @@ body.dark.hero{
 .about_left:hover{
     box-shadow: none;
 }
-.section_header{
+.about .section_header{
     text-align: left;
 }
 .about_container h1{
@@ -128,8 +128,19 @@ body.dark.hero{
 .ourprograms_item-content{
     padding: 2.5rem 2.5rem;
 }
+.ourprograms_item-content a{
+    display: inline-block;
+    color: var(--color-primary);
+    margin-top: 1rem;
+    font-size: 0.85rem;
+}
 .ourprograms_item:hover a{
     background: var(--color-gray-0);
     padding: 0.3rem 1.5rem;
     border-radius: var(--radius-1);
+}
+.ourprograms_item a:hover{
+    background-color: var(--color-gray-900);
+    color: var(--color-gray-0);
+
 }
